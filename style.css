@@ -1,0 +1,48 @@
+*,::before,::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f1f1f1;
+    font-family: sans-serif;
+}
+
+.btn {
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition : 0.5s;
+    color: white;
+    border-radius: 10px;
+    background-size: 200%;
+}
+
+.btn1 {
+    background-image: linear-gradient(
+        to right,
+        #314755,
+        #26a0da,
+        #314755
+    );
+}
+.btn1:hover {
+    background-position: right;
+}
+.btn2 {
+    background-image: linear-gradient(
+        to right,
+        #ff6e7f,
+        #F09819,
+        #ff6e7f
+    );
+}
+.btn2:hover {
+    background-position: right;
+}
